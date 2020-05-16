@@ -22,7 +22,7 @@ class Dog
   
   def self.print_all
     @@all.uniq.each do |x|
-      puts x
+      puts x.name
       
       
   
